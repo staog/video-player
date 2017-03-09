@@ -1,10 +1,12 @@
 body {
-  background-color: #60513a;
-background-image: url("data:image/svg+xml,%3Csvg width='20' height='10' viewBox='0 0 20 10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16 6H6v4H4V6H2V4h2V0h2v4h10V0h2v4h2v2h-2v4h-2V6z' fill='%2339384f' fill-opacity='0.65' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-color: #29241c;
+background-image: url("data:image/svg+xml,%3Csvg width='20' height='10' viewBox='0 0 20 10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16 6H6v4H4V6H2V4h2V0h2v4h10V0h2v4h2v2h-2v4h-2V6z' fill='%23151304' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 #wrap {
   margin-top: 30px;
   text-align: center;
+  color: silver;
+  text-shadow: 1px 1px black;
 }
 video {
   width: 502px;
