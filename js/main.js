@@ -23,15 +23,16 @@ function play() {
   if (playBtn.getAttribute('src') === 'images/play.png') {
   video.play();
   playBtn.src = "images/pause.png";
-  }else {
+  }
+  else {
   video.pause();
-  playBtn.src = "images/play.png"
+  playBtn.src = "images/play.png";
  }
 }
 function reload() {
   video.load();
   video.play();
-  playBtn.src = "images/pause.png"
+  playBtn.src = "images/pause.png";
 }
 
 // Encapsulation pattern
@@ -49,7 +50,6 @@ function reload() {
 //     this.reloadBtn.addEventListener('click', this.reload);
 //   },
 //   show : function () {
-//     console.log(this); //buttons div
 //     video.playBtn.style.display = "block";
 //     video.reloadBtn.style.display = "block";
 //   },
@@ -61,15 +61,16 @@ function reload() {
 //     if (video.playBtn.getAttribute('src') === 'images/play.png') {
 //     video.videoFile.play();
 //     video.playBtn.src = "images/pause.png";
-//     }else {
+//     }
+//     else {
 //     video.videoFile.pause();
-//     video.playBtn.src = "images/play.png"
+//     video.playBtn.src = "images/play.png";
 //     }
 //   },
 //   reload : function () {
 //     video.videoFile.load();
 //     video.videoFile.play();
-//     video.playBtn.src = "images/pause.png"
+//     video.playBtn.src = "images/pause.png";
 //   }
 //
 // }
@@ -85,36 +86,37 @@ function reload() {
 //    this.reloadBtn = this.buttonsDiv.children[1];
 //    this.init = function () {
 //      this.events();
-// };
+//    };
 //    this.events = function () {
 //      this.buttonsDiv.addEventListener('mouseover', this.show);
 //      this.buttonsDiv.addEventListener('mouseout', this.hide);
 //      this.playBtn.addEventListener('click', this.play);
 //      this.reloadBtn.addEventListener('click', this.reload);
 //
-// };
+//    };
 //    this.show = function () {
 //      self.playBtn.style.display = 'block';
 //      self.reloadBtn.style.display = 'block';
-// };
+//    };
 //    this.hide = function () {
 //      self.playBtn.style.display = 'none';
 //      self.reloadBtn.style.display = 'none';
-// };
+//    };
 //    this.play = function () {
 //      if (self.playBtn.getAttribute('src') === 'images/play.png') {
 //        self.videoFile.play();
 //        self.playBtn.src = "images/pause.png";
-//     }else {
+//      }
+//      else {
 //        self.videoFile.pause();
 //        self.playBtn.src = "images/play.png";
-//     }
-// };
+//      }
+//    };
 //    this.reload = function () {
 //        self.videoFile.load();
 //        self.videoFile.play();
 //        self.playBtn.src = "images/pause.png";
-// };
+//    };
 // }
 //
 // var first = new Video('first').init();
@@ -148,7 +150,8 @@ function reload() {
 //      if (this.playBtn.getAttribute('src') === 'images/play.png') {
 //        this.videoFile.play();
 //        this.playBtn.src = "images/pause.png";
-//     }else {
+//     }
+//     else {
 //        this.videoFile.pause();
 //        this.playBtn.src = "images/play.png";
 //     }
